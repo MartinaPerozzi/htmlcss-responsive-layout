@@ -39,7 +39,17 @@ a{
 .w30 {
 	width: calc(100% / 3 - 1.2rem);
 }
-
+.small{
+	max-width: 60%;
+	padding:0rem 5rem;
+}
+.w5{
+	width: calc(50% - 3.6rem);
+}
+.w50{
+	width:calc(50% - 3rem);
+	text-align: center;
+}
 /* padding & margin */
 .p1{
 	padding:1.4rem 1.4rem 0rem 1.4rem;

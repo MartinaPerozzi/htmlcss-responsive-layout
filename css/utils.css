@@ -7,11 +7,12 @@
 	--violet:#9792e4;
 	--yellow:#fdc15f;
 	--black:rgb(41, 41, 41);
-
-
 }
 
-
+/* Background */
+.bg{
+	background-color: var(--violet);
+}
 /* List & Nav */
 li{
 	display:inline;
@@ -21,8 +22,17 @@ li>a{
 	color:white;
 	text-decoration: none;
 }
-
-
+/* Width */
+.w7{
+	width:calc(70% - 3.6rem);
+}
+.w3{
+	width: calc(100% / 3);
+	/* width: calc(70% / 2 - 1.2rem); */
+}
+.w30 {
+	width: calc(100% / 3 - 1.2rem);
+}
 
 
 

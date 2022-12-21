@@ -304,5 +304,10 @@ i{
     .benefit .w30{
         width:100%;
     }
-  
+    .about>.row{
+        flex-direction: column;
+    }
+    .about .w3{
+        width:100%;
+    }
 }

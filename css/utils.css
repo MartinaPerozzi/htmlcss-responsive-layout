@@ -9,6 +9,12 @@
 	--black:rgb(41, 41, 41);
 }
 
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 1rem 2rem;
+}
 /* Background */
 .bg{
 	background-color: var(--violet);
@@ -18,7 +24,7 @@ li{
 	display:inline;
 	padding: 0.8rem;
 }
-li>a{
+a{
 	color:white;
 	text-decoration: none;
 }
@@ -34,15 +40,15 @@ li>a{
 	width: calc(100% / 3 - 1.2rem);
 }
 
-
-
-
-
-
-.container {
-	max-width: 1200px;
-	margin: 0 auto;
+/* padding & margin */
+.p1{
+	padding:1.4rem 1.4rem 0rem 1.4rem;
 }
+
+
+
+
+
 
 .clearfix::after {
 	content: '';

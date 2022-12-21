@@ -132,7 +132,45 @@ header{
     flex-direction: column;
 }
 
+/* Benefits Section */
+.card{
+    background-color: white;
+    border-radius: 2rem;
+    padding-bottom:3rem;
+}
+.violet a{
+    background-color: var(--violet);
+    padding:0.5rem 2rem;
+    border-radius: 2rem;
+}
+.text{
+    margin-bottom:2rem;
+}
+.about .card{
+    padding:0rem 4rem;
+}
+
+.about cite{
+    text-align: left;
+    font-size: 1.2rem;
+    color: var(--violet)
+} 
+
+
+
+
 /* Titles */
+h1{
+    font-size:2rem;
+    text-align: center;
+    color:white;
+}
+h2 {
+    font-size: 3rem;
+    text-align: left;
+    color: var(--violet);
+    padding: 4rem 4rem 1rem 4rem;
+}
 h3{
     font-size: 1.2rem;
     color: var(--blue);
@@ -163,17 +201,4 @@ i{
     background-color: white;
     color: var(--black);
     text-decoration: none;
-}
-.card{
-    background-color: white;
-    border-radius: 2rem;
-    padding-bottom:3rem;
-}
-.violet a{
-    background-color: var(--violet);
-    padding:0.5rem 2rem;
-    border-radius: 2rem;
-}
-.text{
-    margin-bottom:2rem;
 }

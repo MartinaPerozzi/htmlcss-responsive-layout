@@ -1,5 +1,34 @@
 /* Utils */
 
+/* Root */
+:root{
+	--blue:#0084fd;
+	--light-blue:#b5ddff;
+	--violet:#9792e4;
+	--yellow:#fdc15f;
+	--black:rgb(41, 41, 41);
+
+
+}
+
+
+/* List & Nav */
+li{
+	display:inline;
+	padding: 0.8rem;
+}
+li>a{
+	color:white;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
 .container {
 	max-width: 1200px;
 	margin: 0 auto;

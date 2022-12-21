@@ -21,13 +21,16 @@ header{
     /* < !-- First Section --> */
 
 .row{
-    padding:6rem 0rem 5rem 0rem;
+    padding:1.5rem 0rem;
     display:flex;
     flex-wrap:wrap;
     gap:1.2rem;
     justify-content:center;
 }
-.row>.card{
+.row.first{
+    padding: 6rem 0rem 5rem 0rem;
+}
+.row.first>.card{
     height:300px;
     background-color: var(--light-blue);
     border-radius:1.5rem;
@@ -45,7 +48,7 @@ header{
     text-align: center;
 }
 
-/* Strategic Planning */
+/* Second Section-Strategic Planning */
 .row-small {
     padding: 6rem 4rem;
     display: flex;
@@ -98,16 +101,36 @@ header{
     font-size: 2rem;
     text-align: center;
     margin: 2rem auto;
-    padding: 1rem 0rem 1rem 0rem;
+    padding: 1rem 0rem;
     background-color: var(--violet);
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    margin: 0 auto;
+    margin: 0rem auto 1rem;
     display:block;
 }
-
-
+/* Third Section- Partners Section */
+.img-path{
+    width:20%;
+}
+.img-path>img{
+    clip-path: circle(40%);
+}
+.partner{
+    width:100%;
+    background-color: var(--violet);
+    border-radius: 2rem;
+    padding:1rem 0rem;
+    display:flex;
+}
+.partner-label{
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 2rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
 
 /* Titles */
 h3{
@@ -140,4 +163,17 @@ i{
     background-color: white;
     color: var(--black);
     text-decoration: none;
+}
+.card{
+    background-color: white;
+    border-radius: 2rem;
+    padding-bottom:3rem;
+}
+.violet a{
+    background-color: var(--violet);
+    padding:0.5rem 2rem;
+    border-radius: 2rem;
+}
+.text{
+    margin-bottom:2rem;
 }

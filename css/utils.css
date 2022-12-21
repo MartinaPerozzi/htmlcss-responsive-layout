@@ -52,8 +52,38 @@ a{
 }
 /* padding & margin */
 .p1{
-	padding:1.4rem 1.4rem 0rem 1.4rem;
+	padding:3rem 1.4rem 0rem 1.4rem;
 }
+.p2 {
+	padding: 2rem 0rem;
+}
+.mt2{
+	margin-top:2rem;
+}
+
+/* Titles */
+h1 {
+	font-size: 2rem;
+	text-align: center;
+	color: white;
+	padding: 2rem 0rem;
+}
+
+h2 {
+	font-size: 3rem;
+	text-align: center;
+	color: var(--violet);
+	padding: 2rem 0rem;
+}
+
+h3 {
+	font-size: 1.2rem;
+	color: var(--blue);
+	font-weight: bolder;
+	padding: 1.5rem 0rem;
+}
+
+
 
 
 

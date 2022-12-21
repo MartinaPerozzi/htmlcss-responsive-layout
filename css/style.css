@@ -46,6 +46,7 @@ header{
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin:0 auto;
 }
 
 /* Second Section-Strategic Planning */
@@ -166,6 +167,15 @@ header{
 .about .img-path{
     width:100%;
 }
+
+
+/* FOOTER */
+footer{
+    background-color: var(--black);
+    padding:2rem 0rem;
+    color:white;
+}
+
 
 /* Titles */
 h1{

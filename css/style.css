@@ -109,7 +109,7 @@ header{
     margin: 0rem auto 1rem;
     display:block;
 }
-/* Third Section- Partners Section */
+/* Partners Section */
 .img-path{
     width:20%;
 }
@@ -130,8 +130,11 @@ header{
     padding: 2rem;
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
-
+.partner-label p{
+    text-align: center;
+}
 /* Benefits Section */
 .card{
     background-color: white;
@@ -146,8 +149,9 @@ header{
 .text{
     margin-bottom:2rem;
 }
+/* ABOUT */
 .about .card{
-    padding:0rem 4rem;
+    padding:0rem 4rem 0rem 2rem;
 }
 
 .about cite{
@@ -155,9 +159,13 @@ header{
     font-size: 1.2rem;
     color: var(--violet)
 } 
+.about h2{
+    text-align:left;
+}
 
-
-
+.about .img-path{
+    width:100%;
+}
 
 /* Titles */
 h1{
@@ -167,9 +175,9 @@ h1{
 }
 h2 {
     font-size: 3rem;
-    text-align: left;
+    text-align: center;
     color: var(--violet);
-    padding: 4rem 4rem 1rem 4rem;
+    padding: 2rem 0rem;
 }
 h3{
     font-size: 1.2rem;
@@ -201,4 +209,16 @@ i{
     background-color: white;
     color: var(--black);
     text-decoration: none;
+}
+.app.vio>a{
+    background-color: var(--violet);
+    padding: 0.5rem 1rem;
+}
+.vio i{
+    font-size: 1rem;
+    color:white;
+    padding:0rem 0.5rem;
+}
+.about .text{
+    align-items:flex-start;
 }

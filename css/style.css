@@ -16,17 +16,23 @@ header{
     /* position:fixed;
     z-index: 1; */
 }
+#nav-bar{
+    display:none;
+}
+
+#nav-bar>i{
+    color:white;
+    font-size: 2rem;
+}
+.app i{
+    color:white;
+    font-size: 1.2rem;
+    padding-right:0.5rem;
+}
 
 /* MAIN */
-    /* < !-- First Section --> */
-
-.row{
-    padding:1.5rem 0rem;
-    display:flex;
-    flex-wrap:wrap;
-    gap:1.2rem;
-    justify-content:center;
-}
+   
+/* Fisrt Section-Demo */
 .row.first{
     padding: 6rem 0rem 5rem 0rem;
 }
@@ -41,18 +47,13 @@ header{
 .demo .w30{
     align-self: flex-end;
 }
-.column{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin:0 auto;
-}
 .tel{
     display:flex;
 }
 .first .text{
     text-align: center;
 }
+
 /* Second Section-Strategic Planning */
 .row-small {
     padding: 6rem 4rem;
@@ -100,7 +101,6 @@ header{
     text-align: center;
     padding-bottom:2rem;
 }
-
 .right>a{
     color:var(--black);
     font-size: 2rem;
@@ -114,12 +114,13 @@ header{
     margin: 0rem auto 1rem;
     display:block;
 }
+
 /* Partners Section */
 .img-path{
     width:20%;
 }
 .img-path>img{
-    clip-path: circle(40%);
+    clip-path: circle(39%);
 }
 .partner{
     width:100%;
@@ -162,10 +163,6 @@ header{
     padding:0.5rem 2rem;
     border-radius: 2rem;
 }
-.text{
-    margin-bottom:2rem;
-}
-
 .numbers{
     font-size:4rem;
     color: var(--violet);
@@ -173,15 +170,22 @@ header{
 .benefit h3{
     color:var(--violet);
 }
-
+.violet{
+    margin:1.5rem 0rem;
+}
 /* ABOUT */
+.about{
+    margin-top:2rem;
+    margin-bottom:3rem;
+}
 .about .card{
-    padding:0rem 2em 0rem 2rem;
+    padding:0rem 3em 0rem 2rem;
 }
 
 .about cite{
     text-align: left;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
     color: var(--violet)
 } 
 .about h2{
@@ -193,20 +197,22 @@ header{
 }
 
 .about .img-path{
-    padding: 2rem 0rem;
-    width: 70%;
+    width: 90%;
+    clip-path: circle(50%);
+}
+.text-cite{
+    width:89%;
 }
 
-.about .text{
-    align-items:flex-start;
-}
+/* Get Started */
+
+
 /* FOOTER */
 footer{
     background-color: var(--black);
     padding:2rem 0rem;
     color:white;
 }
-
 
 
 /* ICONS */

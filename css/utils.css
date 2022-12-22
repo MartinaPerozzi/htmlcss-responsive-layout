@@ -27,6 +27,8 @@
 	flex-direction: column;
 	text-align: center;
 	margin: 0 auto;
+	gap:1.2rem;
+	color:white;
 }
 
 /* Background */
@@ -64,6 +66,7 @@ a{
 	width:calc(50% - 3rem);
 	text-align: center;
 }
+
 /* padding & margin */
 .pt0-d{
 	padding: 1.5rem 1.4rem 0rem 1.4rem;
@@ -76,6 +79,9 @@ a{
 }
 .p2 {
 	padding: 2rem 0rem;
+}
+.p1-2 {
+	padding: 1rem 2rem;
 }
 .mt2{
 	margin-top:2rem;

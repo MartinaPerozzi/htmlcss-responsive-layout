@@ -52,6 +52,7 @@ header{
 }
 .first .text{
     text-align: center;
+    margin-bottom:2rem;
 }
 
 /* Second Section-Strategic Planning */
@@ -146,13 +147,14 @@ header{
     color:white;
     font-size: 1rem;
 }
-.partner span {
+.partner p {
     color:white;
     font-weight:lighter;
 }
 .partner .name{
     padding-top:1rem;
 }
+
 /* Benefits Section */
 .card{
     background-color: white;
@@ -205,8 +207,17 @@ header{
 }
 
 /* Get Started */
-
-
+.free{
+    color: var(--yellow);
+    font-size: 3rem;    
+}
+.get-started{
+    margin: 0 auto;
+}
+.btn.get>a{
+    padding:1rem 3rem;
+    color: var(--violet);
+}
 /* FOOTER */
 footer{
     background-color: var(--black);
@@ -253,6 +264,10 @@ i{
 
 /* MEDIA QUERIES */
 @media screen and (max-width:800px){
+
+    header nav{display:none;
+    }
+
     .row-small{
         flex-direction: column;
     }
@@ -295,9 +310,7 @@ i{
 }
 /* mobile */
 @media screen and (max-width:480px) {
-    header nav{
-        display:none;
-    }
+    
     .demo{
         flex-direction: column;
     }

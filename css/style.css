@@ -117,8 +117,10 @@ header{
 }
 
 /* Partners Section */
-.img-path{
-    width:20%;
+.img-path>img{
+    width:100%;
+    height:100%;
+    border-radius:50%;
 }
 .img-path>img{
     clip-path: circle(39%);
@@ -263,32 +265,28 @@ i{
 
 
 /* MEDIA QUERIES */
-@media screen and (max-width:800px){
 
-    header nav{display:none;
-    }
+@media screen and (max-width:768px) {
 
-    .row-small{
-        flex-direction: column;
+    header nav {
+            display: none;
+        }
+    #nav-bar{
+        display:block;
     }
-    .w50{
-        width:100%;
-    }
-
-   .benefit .w30, .benefit .w3{
-        width:calc(100% / 2 - 1.2rem)
-    }
-
-    .about>.row{
-        flex-wrap: nowrap;
-    }
-    .about .w3{
-        width: calc(100% / 2 - 1.2rem)
-    }
-}
-@media screen and (max-width:800px) {
+    
     .row-small {
         flex-direction: column;
+    }
+    .demo{
+        flex-direction: column;
+    }
+    .demo .w7{
+        width:100%
+
+    }
+    .demo .w30{
+        align-self: flex-start;
     }
 
     .w50 {
@@ -311,9 +309,6 @@ i{
 /* mobile */
 @media screen and (max-width:480px) {
     
-    .demo{
-        flex-direction: column;
-    }
     .w7, .w30, .w3{
         width:100%;
     }
@@ -331,5 +326,8 @@ i{
     }
     .about .w3{
         width:100%;
+    }
+    .partner-description{
+        text-align: center;
     }
 }

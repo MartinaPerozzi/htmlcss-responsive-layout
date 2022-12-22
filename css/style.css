@@ -259,9 +259,7 @@ i{
     padding:0rem 0.5rem;
 }
 
-
 /* MEDIA QUERIES */
-
 /* TABLET */
 
 @media screen and (max-width:768px) {
@@ -285,7 +283,7 @@ i{
         right:0rem;
         top:4rem;
     }
-    .btn>.starter{
+    header .starter{
         padding:1rem 5rem;
         color:white;
         background-color: var(--blue);

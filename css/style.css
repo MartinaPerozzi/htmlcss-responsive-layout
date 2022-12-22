@@ -357,4 +357,7 @@ i{
     .app.vio>a{
         padding:0.5rem 2rem;
     }
+    .partner p {
+        padding: 1rem 1.5rem 0rem 1rem;
+    }
 }

@@ -16,6 +16,7 @@ body {
 	font-size:1rem;
 	line-height:1.8em;
 	color: var(--black);
+	font-family:'Roboto', sans-serif;
 }
 
 img,

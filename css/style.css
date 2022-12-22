@@ -152,6 +152,7 @@ header{
 .partner p {
     color:white;
     font-weight:lighter;
+    padding: 0rem 1.5rem 0rem 0rem;
 }
 .partner .name{
     padding-top:1rem;
@@ -258,42 +259,22 @@ i{
     color:white;
     padding:0rem 0.5rem;
 }
+.column span{
+    font-size: 0.9rem;
+    
+}
 
 /* MEDIA QUERIES */
 /* TABLET */
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:800px) {
 /* header */
 
     header nav {
             display: none;
         }
     
-    nav li{
-        display:block;
-        background-color: var(--blue);
-        border-bottom:1px solid var(--light-blue);
-        padding:1rem 5rem;
-    }
-    header{
-        position:relative;
-    }
-    nav{
-        position:absolute;
-        right:0rem;
-        top:4rem;
-    }
-    header .starter{
-        padding:1rem 5rem;
-        color:white;
-        background-color: var(--blue);
-        
-        }    
     #nav-bar{
-        display:block;
-    }
-
-    #nav-bar:active nav{
         display:block;
     }
 
@@ -329,6 +310,12 @@ i{
     .app>.a{
         padding:0.5rem 1rem;
     }
+    .app.vio>a{
+        padding:0.5rem 0.1rem;
+    }
+    .vio i{
+        padding:0rem 0.1rem;
+    }
     /* About section */
 
     .about>.row {
@@ -346,7 +333,7 @@ i{
 /* MOBILE */
 @media screen and (max-width:480px) {
     
-    .w7, .w30, .w3{
+    .w7, .w30, .w3, .w6{
         width:100%;
     }
     .partner{
@@ -366,5 +353,8 @@ i{
     }
     .partner-description{
         text-align: center;
+    }
+    .app.vio>a{
+        padding:0.5rem 2rem;
     }
 }
